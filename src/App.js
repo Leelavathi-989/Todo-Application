@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { AddTodoAction, RemoveTodoAction } from './actions/TodoActions';
 import TodoApp from './todo/todoApp/TodoApplication';
 
+
 function App() {
   const [todo, setTodo] = useState('');
   const dispatch = useDispatch();
@@ -16,6 +17,7 @@ function App() {
     dispatch(AddTodoAction(todo));
   };
 
+
   const removeHandler = (t) => {
     dispatch(RemoveTodoAction(t));
   }
@@ -25,9 +27,12 @@ function App() {
   }
 
   return (
+    <>
     <div className="App">
       <TodoApp/>
     </div>
+    </>
+
   );
 }
 
