@@ -1,0 +1,65 @@
+.addTask {
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    color: white;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 20px; 
+  }
+  
+  .addTaskInput {
+    margin-bottom: 10px; 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .addTaskButton {
+    padding: 10px;
+    background-color: green;
+    cursor: pointer;
+    border-radius: 20px;
+    width:50%;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .formContainer {
+    justify-content: center;
+    display: flex;
+    flex-direction: column; 
+  }
+
+  .singleTodo{
+    border-radius: 50px;
+    margin: 10px 0;
+    background-color: lightblue;
+    padding: 10px 20px;
+    display: flex;
+    width: 450px;
+    align-items: center;
+  }
+
+  .todoText{
+    text-align: start;
+    flex: 1;
+  }
+  
+  .statusDropdown{
+    margin-bottom: 10px; 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .label{
+    align-self: flex-start;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: blue;
+  }
